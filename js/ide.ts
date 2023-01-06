@@ -2605,8 +2605,8 @@ class IDE {
   }
   update_ffs_query(s, callback) {
     const search = s || $("#ffs-dialog input[type=search]").val();
-    const comment = $("#ffs-dialog input[name='ffs.comments']")[0].checked;
-    ffs_construct_query(search, comment, (err, query) => {
+    //const comment = $("#ffs-dialog input[name='ffs.comments']")[0].checked;
+    ffs_construct_query(search, null, (err, query) => {
       if (err) {
         ffs_repair_search(search, (repaired) => {
           if (repaired) {

@@ -211,6 +211,9 @@
   "ffs.parse_error_expl": "Note that you must use quotation marks with strings containing spaces or special characters and that multiple search filters must be separated by appropriate boolean operators (<i>and</i> or <i>or</i>). Read the <a href=\"https://wiki.openstreetmap.org/wiki/Overpass_turbo/Wizard\" target=\"_blank\">documentation</a> for more information.",
   "ffs.typo": "Did you mean:",
 
+  "ffsai.expl": "The wizard assists you using Overpass Turbo. What are the map items you're searching ?",
+  "ffsai.run": "Search",
+
   "dialog.dismiss": "dismiss",
   "dialog.cancel": "cancel",
   "dialog.save": "save",

@@ -23,6 +23,23 @@
           <div class="buttons has-addons">
             <button
               class="t button is-success"
+              accesskey="4"
+              data-ide-handler="click:onFfsClick"
+              title=""
+              data-t="[title]nav.wizard_tt"
+              data-shortcut="Ctrl+Shift+F"
+            >
+              <span class="icon">
+                <span class="fas fa-magic"></span>
+              </span>
+              <span class="t" data-t="nav.wizard">Wizard</span>
+            </button>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <div class="buttons has-addons">
+            <button
+              class="t button"
               accesskey="1"
               data-ide-handler="click:onRunClick"
               title=""
@@ -70,23 +87,6 @@
                 <span class="fas fa-external-link-alt"></span>
               </span>
               <span class="t" data-t="nav.export">Export</span>
-            </button>
-          </div>
-        </div>
-        <div class="navbar-item">
-          <div class="buttons has-addons">
-            <button
-              class="t button"
-              accesskey="4"
-              data-ide-handler="click:onFfsClick"
-              title=""
-              data-t="[title]nav.wizard_tt"
-              data-shortcut="Ctrl+Shift+F"
-            >
-              <span class="icon">
-                <span class="fas fa-magic"></span>
-              </span>
-              <span class="t" data-t="nav.wizard">Wizard</span>
             </button>
           </div>
         </div>
@@ -165,8 +165,7 @@
 
         <div class="navbar-brand">
           <a class="navbar-item" href="index.html">
-            overpass turbo
-            <img src="turbo.png" alt="overpass turbo" />
+            <img src="logo.svg" alt="Overpass AI" />
           </a>
         </div>
       </div>
@@ -996,9 +995,10 @@
         </header>
         <section class="modal-card-body">
           <div class="content">
-            <span class="t" data-t="[html]ffs.expl"></span>
+            <!--span class="t" data-t="[html]ffs.expl"></span-->
+            <span class="t" data-t="[html]ffsai.expl"></span>
           </div>
-          <div class="panel">
+          <!--div class="panel">
             <div class="panel-heading t" data-t="load.examples"></div>
             <div class="panel-block monospace">Drinking Water</div>
             <div class="panel-block monospace">
@@ -1009,7 +1009,7 @@
             </div>
             <div class="panel-block monospace">tourism=hotel</div>
             <div class="panel-block monospace">tourism=museum in Vienna</div>
-          </div>
+          </div-->
           <div class="field">
             <div class="control has-icons-left">
               <input
@@ -1053,14 +1053,14 @@
         <footer class="modal-card-foot">
           <div class="level">
             <div class="level-right">
-              <div class="level-item">
+              <!--div class="level-item">
                 <div class="control">
                   <label class="checkbox">
                     <input type="checkbox" name="ffs.comments" checked />
                     <span class="t" data-t="ffs.comments"></span>
                   </label>
                 </div>
-              </div>
+              </div-->
               <div class="level-item">
                 <button
                   class="button is-success"
@@ -1069,9 +1069,9 @@
                   <span class="icon">
                     <span class="fas fa-play"></span>
                   </span>
-                  <span class="t" data-t="dialog.wizard_run"></span>
+                  <span class="t" data-t="ffsai.run"></span>
                 </button>
-                <button
+                <!--button
                   class="button is-success"
                   data-ide-handler="click:onFfsBuild"
                 >
@@ -1079,7 +1079,7 @@
                     <span class="fas fa-hammer"></span>
                   </span>
                   <span class="t" data-t="dialog.wizard_build"></span>
-                </button>
+                </button-->
                 <button class="button" data-ide-handler="click:onFfsClose">
                   <span class="t" data-t="dialog.cancel">Cancel</span>
                 </button>
